@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoyenneActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="Moyenne"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="400dp"/>
+        <TextView
+            android:id="@+id/moy_gen"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:hint="/20"
+            android:textSize="30dp"
+            android:layout_margin="5dp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Module"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Examen"
+                android:textSize="30dp"
+                android:layout_margin="5dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="TD"
+                android:textSize="30dp"
+                android:layout_margin="5dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="TP"
+                android:textSize="30dp"
+                android:layout_margin="5dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Moyenne"
+                android:textSize="30dp"
+                android:layout_margin="5dp"
+                android:textAlignment="center"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/lv_module"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

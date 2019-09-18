@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:GestionDesEtudian="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="106dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="25sp"
+        GestionDesEtudian:layout_constraintStart_toStartOf="parent"
+        GestionDesEtudian:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/exam"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:inputType="number"
+        android:text=""
+        android:textSize="25sp"
+        GestionDesEtudian:layout_constraintStart_toEndOf="@+id/nom"
+        GestionDesEtudian:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/td"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:text=""
+        android:textSize="25sp"
+        GestionDesEtudian:layout_constraintStart_toEndOf="@+id/exam"
+        GestionDesEtudian:layout_constraintTop_toTopOf="parent"
+        android:inputType="number"/>
+
+    <EditText
+
+        android:id="@+id/tp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text=""
+        android:textSize="25sp"
+        GestionDesEtudian:layout_constraintStart_toEndOf="@+id/td"
+        GestionDesEtudian:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/moy"
+        android:layout_width="114dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:text=""
+        android:textSize="25sp"
+        GestionDesEtudian:layout_constraintStart_toEndOf="@+id/tp"
+        GestionDesEtudian:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

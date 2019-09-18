@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmploieActivity"
+    android:background="@drawable/b">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_niv2"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:text="Niveau"
+            android:textSize="40sp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"/>
+
+        <Spinner
+            android:id="@+id/sp_niv2"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_spec2"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:text="Spécialité"
+            android:textSize="40sp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"/>
+
+        <Spinner
+            android:id="@+id/sp_spec2"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_sem2"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:text="Semestre"
+            android:textSize="40sp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"/>
+
+        <Spinner
+            android:id="@+id/sp_sem2"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_groupe"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:text="Groupe"
+            android:textSize="40sp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"/>
+
+        <Spinner
+            android:id="@+id/sp_groupe"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Space
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/bt_afficher"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Afficher"
+            android:textSize="30sp"
+            android:background="@drawable/shaped_button"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Gestion Des Etudiants</string>
+
+    <string-array name="niveaux">
+        <item> Licence 1</item>
+        <item> Licence 2</item>
+        <item> Licence 3</item>
+    </string-array>
+
+    <string-array name="specl1">
+        <item> Tronc commun</item>
+    </string-array>
+
+    <string-array name="specl2">
+        <item> Info</item>
+        <item> Math</item>
+    </string-array>
+
+
+    <string-array name="specl3">
+        <item> SI</item>
+        <item> ISIL</item>
+        <item> Math</item>
+    </string-array>
+
+
+    <string-array name="seml1">
+        <item> Semestre 1</item>
+        <item> Semestre 2</item>
+    </string-array>
+
+    <string-array name="seml2">
+        <item> Semestre 3</item>
+        <item> Semestre 4</item>
+    </string-array>
+
+    <string-array name="seml3">
+        <item> Semestre 5</item>
+        <item> Semestre 6</item>
+    </string-array>
+
+    <string-array name="groupe4">
+        <item> Groupe 1</item>
+        <item> Groupe 2</item>
+        <item> Groupe 3</item>
+        <item> Groupe 4</item>
+    </string-array>
+
+    <string-array name="groupe3">
+        <item> Groupe 1</item>
+        <item> Groupe 2</item>
+        <item> Groupe 3</item>
+    </string-array>
+
+    <string-array name="groupe2">
+        <item> Groupe 1</item>
+        <item> Groupe 2</item>
+    </string-array>
+
+
+</resources>
